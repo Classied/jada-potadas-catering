@@ -22,6 +22,7 @@ body{
 }
 
 /* WELCOME PAGE HEADER - MOBILE */
+
 header{
   display: flex;
   flex-flow: row wrap;
@@ -47,8 +48,7 @@ header nav ul {
   flex-flow: row wrap;
   justify-content: center;
   margin: 25px 0;
-  padding: 0; 
-  
+  padding: 0;   
 }
 
 nav ul li {
