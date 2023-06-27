@@ -2,6 +2,7 @@
 
 html{
   background-color: #FFF9E1;
+  color: #57371A;
 }
 
 body{
@@ -10,4 +11,30 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+.content-wrapper{
+  max-width: 1200px;
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* WELCOME PAGE HEADER - MOBILE */
+header{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;  
+}
+
+header img {
+  width: 400px;
+}
+
+/* WELCOME PAGE MAIN - MOBILE */
+
+/* WELOCME PAGE FOOTER - MOBILE */
 
