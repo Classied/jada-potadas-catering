@@ -66,6 +66,11 @@ nav ul li a{
 }
 
 /* WELCOME PAGE MAIN - MOBILE */
-
+h1, h2, h3{
+  text-transform: uppercase;
+}
+.photo-roll img{
+  width: 275px;
+}
 /* WELOCME PAGE FOOTER - MOBILE */
 
