@@ -1,18 +1,18 @@
 /* GLOBAL STYLES MOBILE*/
 
-html{
+html {
   background-color: #FFF9E1;
   color: #291A0C;
 }
 
-body{
+body {
   font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.content-wrapper{
+.content-wrapper {
   max-width: 1200px;
   width: 90%;
   display: flex;
@@ -23,12 +23,12 @@ body{
 
 /* WELCOME PAGE HEADER - MOBILE */
 
-header{
+header {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  width: 100%;  
+  width: 100%;
   margin: 0;
 }
 
@@ -37,7 +37,7 @@ header img {
   margin: 0;
 }
 
-header nav{
+header nav {
   width: 90%;
   margin: 0 0 15px 0;
   border-bottom: 5px dotted black;
@@ -49,7 +49,7 @@ header nav ul {
   flex-flow: row wrap;
   justify-content: center;
   margin: 20px 0;
-  padding: 0;   
+  padding: 0;
 }
 
 nav ul li {
@@ -61,25 +61,48 @@ nav ul li {
   margin: 10px 15px;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   color: black;
 }
 
 /* WELCOME PAGE MAIN - MOBILE */
-main{
+main {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
 }
-h1, h2, h3{
+
+h1,
+h2,
+h3 {
   text-transform: uppercase;
 }
-.photo-roll img{
+
+.photo-roll {
+  margin: 20px 0;
+}
+
+.photo-roll img {
   width: 200px;
   display: flex;
   flex-flow: row wrap;
 }
-/* WELOCME PAGE FOOTER - MOBILE */
 
+.homepage-summary {
+  margin: 0;
+  width: 90%;
+}
+
+.homepage-summary h1 {
+  line-height: 45px;
+  margin: 20px 0 0 0;
+}
+
+.homepage-summary p {
+  line-height: 30px;
+}
+
+
+/* WELOCME PAGE FOOTER - MOBILE */
