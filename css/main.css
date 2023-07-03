@@ -102,6 +102,7 @@ h3 {
 }
 
 .homepage-summary p {
+  font-style: italic;
   line-height: 30px;
   margin: 15px 0 30px 0;
 }
