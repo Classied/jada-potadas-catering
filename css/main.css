@@ -110,16 +110,41 @@ main {
 
 .specials-wrapper{
   border: 5px solid white;
-  margin: 0;
 }
 
-.current-special figure img{
-  width: 30%;
-  /* margin-top: 25px; */
+.current-special{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+
+}
+.current-special img{
+  width: 70%;
+  margin: 25px 0;
+  
+}
+
+.current-special h2{
+  margin: 0 25px;
+  text-align: center;
+}
+
+.current-special p {
+  text-align: center;
+  margin: 20px 15px;
+  padding: 0 15px;
+}
+
+.current-special button {
+    width: 45%;
+  margin-bottom: 20px;
+ 
 }
   
-.lastweek-special figure img{
-  width: 30%;
+.lastweek-special img{
+  width: 70%;
 }
 
 
