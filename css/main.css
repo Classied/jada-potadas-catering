@@ -110,6 +110,16 @@ main {
 
 .specials-wrapper{
   border: 5px solid white;
+  margin: 0;
+}
+
+.current-special figure img{
+  width: 30%;
+  /* margin-top: 25px; */
+}
+  
+.lastweek-special figure img{
+  width: 30%;
 }
 
 
